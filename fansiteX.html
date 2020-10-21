@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fansite.css" />
+    <title>Fansite</title>
+</head>
+
+
+<body>
+
+
+    <header>
+        <section class="coverfan-container">
+            <img src="images/contact1.png" alt="rihana">
+            <img src="images/contact2.png" alt="rihana">
+            <img src="images/contact3.png" alt="rihana">
+        </section>
+        <nav>
+            <a href="fansiteX.html">Contacts</a>
+            <a href="fansite.html">Home</a>
+            <a href="fansite2.html">Actualités</a>
+        </nav>
+    </header>
+
+
+    <main class="backgroundcontact">
+
+        <section>
+            <form method="post" action="php">
+                <fieldset>
+
+                    <div class="formflex">
+                        <label for="nom">NOM</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+
+                    <div class="formflex">
+                        <label for="prenom">PRENOM</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+
+
+                    <div class="formflex">
+                        <label for="zipcode">ZIP CODE *</label>
+                        <input type="text" name="zipcode" id="zipcode">
+                    </div>
+
+                    <div class="formflex">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+
+                    <div class="formflex">
+                        <label for="datenai">DATE DE NAISSANCE</label>
+                        <input type="date" id="datenai" name="datenai">
+                    </div>
+
+                    <div class="formflex">
+                        <label for="sexe">SEXE</label>
+                        <select name="sexe" id="sexe" required>
+                            <option value="">Choisir</option>
+                            <option value="Femme">Femme</option>
+                            <option value="Homme">Homme</option>
+                            <option value="Nonbinaire">Non binaire</option>
+                        </select><br>
+                    </div>
+
+
+                    <div class="formflex">
+                        <label for="continent">CONTINENT</label>
+                        <select name="continent" id="continent" required>
+                            <option value="">Choisir</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Amerique">Amerique</option>
+                            <option value="Afrique">Afrique</option>
+                            <option value="Asie">Asie</option>
+                            <option value="Oceanie">Océanie</option>
+                        </select>
+                    </div>
+
+                    <div class="formflex">
+                        <p>Je m'inscris pour les mises à jour du site</p>
+                        <input type="checkbox" id="signin" name="signin" value="montagne">
+                        <label for="signin">oui ?</label>
+
+                        <p>
+                            Autorisation marketing: J'autorise le FansiteRihanna à me contacter par e-mail en utilisant
+                            <br>
+                            les informations que j'ai fournies dans ce formulaire à des fins de nouvelles, <br>
+                            de mises à jour et de marketing. <br>
+                        </p>
+
+                        <input type="checkbox" id="marketing" name="marketing" value="arbre">
+                        <label for="marketing">oui ?</label>
+                    </div>
+
+                    <div class="formflex">
+                        <button type="submit" formaction="fansite.html">Envoyer</button>
+                    </div>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+
+
+    <footer>
+
+        <section class="nav">
+            <a href="fansite.html">Home</a>
+            <a href="fansite2.html">Actus & Events</a>
+            <a href="fansiteX.html">Contacts & Inscription</a>
+            <p>Fansite.fr&copy; 2020, Inc. All rights reserved.</p>
+        </section>
+        <section class="fabfa">
+            <P>Sites officiel de Rihanna</P>
+            <a href="https://www.facebook.com/rihanna"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/badgalriri/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/rihannanavyfr"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://twitter.com/rihannanavyfr"><i class="far fa-browser"></i></a>
+        </section>
+
+        <section class="fabfa">
+            <P>Retrouvez les comptes des autres Fan Sites</P>
+            <a href="https://www.facebook.com/groups/1858154884440484"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/accounts/login/?next=/rihannadiary/%3Fhl%3Dfr"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/RihannaNavyRD"><i class="fab fa-twitter-square"></i></a>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>

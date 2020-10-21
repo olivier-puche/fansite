@@ -1,0 +1,341 @@
+body
+{
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+video
+{
+    width: 100%;
+}
+
+nav
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgba(250, 92, 52, 0.5);
+    padding: 70px 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: 60px;
+    color: rgb(0, 13, 128);
+    padding: 10px;
+    /* background-color: rgb(247, 244, 250); */
+}
+
+nav a:hover
+{
+    background-color: tomato;
+}
+
+nav a:visited
+{
+    color: white;
+}
+
+
+/* Main Main */
+
+.savagexfenty
+{
+    width: 100%;
+    height: 500px;
+    background-color: tomato;
+    vertical-align:middle;
+    display:table-cell;
+    padding: 20px;
+    text-align: center;
+   color: white;
+}
+
+.savagexfenty h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    text-decoration: overline;
+}
+
+.titreharper
+{
+    text-align: center;
+    font-size: 50px;
+    color: #595959;
+}
+
+.articletext
+{
+    text-align: justify;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #595959;
+}
+
+.harper-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.harper-container img
+{
+    max-width: 33%;
+}
+
+
+.harper-container1 img
+{
+    max-width: 30%;
+}
+
+.harper-container1 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.harper-container2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.harper-container2 img
+{
+    max-width: 20%;
+}
+.clothes img
+{
+    width: 100%;
+}
+
+.clothes h1
+{
+    position: absolute;
+    bottom: -470%;
+    right: 12%;
+    font-size: 60px;
+    color: brown;
+    text-align: center;
+    text-decoration: overline;
+}
+
+hr 
+{
+   width: 600px;
+   border: none;
+   border: 1px solid tomato;
+}
+
+
+/* Footer Footer */
+
+footer
+{
+font-family: 'Abril Fatface', cursive;
+text-decoration: overline;
+text-align: center;
+}
+
+.nav
+{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+.nav a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: tomato;
+}
+
+.nav a:hover
+{
+    color: white;
+}
+
+
+.fabfa
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.fabfa a
+{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+/* Page Fansite 2 */
+
+.coverfan-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.coverfan-container img
+{
+    max-width: 33.3%;
+}
+
+.savagexfenty1
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.musictext
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+.musictext h1
+{
+    font-size: 50px;
+    color: #595959;
+    text-align: center;
+}
+
+.div1 a, .div2 a, .div3 a
+{
+  text-decoration: none;
+  font-size: 30px;
+  color: tomato;
+}
+
+.div1 a:hover, .div2 a:hover, .div3 a:hover
+{
+  color: rgb(0, 13, 128);
+}
+
+
+.savagexfenty img
+{
+    max-width: 100%;
+}
+
+blockquote
+{
+    width: 100%;
+    height: 200px;
+    background-color: bisque;
+    vertical-align:middle;
+    display:table-cell;
+    padding: 20px;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+   
+    }
+    
+    .parent img
+    {
+        max-width: 100%;
+    }
+
+    .parent h3, .parent p
+    {
+        font-size: 13px;
+    }
+
+    .videofooter
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    /* Page Contact */
+
+    .formflex
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        padding: 10px;
+    }
+
+    fieldset
+    {
+        width: 30%;
+        background-color: tomato;
+        border: none;
+    }
+
+    .backgroundcontact
+    {
+        background-image: url(images/imacontact.png);
+        background-size: cover;
+    }
+
+    input, select, option
+    {
+        border: none;
+        background: none;
+        border: 0.3px solid white;
+        border-radius: 2px;
+        background-color: rgb(255, 189, 177);
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    button
+    {
+        border: none;
+        background: none;
+        font-family: 'Abril Fatface', cursive;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 2px;
+    }
+
+    button:hover
+    {
+        box-shadow:
+        1px 1px white,
+        2px 2px white,
+        3px 3px white;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+    }
+
+    label
+    {
+        text-decoration: overline;
+    }
