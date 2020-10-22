@@ -269,7 +269,7 @@ blockquote
         max-width: 100%;
     }
 
-    .parent h3, .parent p
+    .parent h2, .parent p
     {
         font-size: 13px;
     }
